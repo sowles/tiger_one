@@ -1,6 +1,6 @@
 # tiger_one
 
-##Getting Started
+## Getting Started
 
 Execute
 ```
@@ -13,7 +13,7 @@ Create a .env variable with:
 API_KEY = [Sawyers API-key no brackets]
 ```
 
-###IMPORTANT
+### IMPORTANT
 Create a .gitignore with this:
 ```
 /node_modules/
