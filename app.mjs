@@ -1,16 +1,12 @@
 import dotenv from "dotenv";
 import OpenAI from "openai";
 import readline from "readline";
-
-// Load environment variables from .env file
 dotenv.config();
 
-// Initialize OpenAI with the API key from the environment variable
 const openai = new OpenAI({
   apiKey: process.env.API_KEY,
 });
 
-// Create a readline interface for user input
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -32,7 +28,6 @@ const conversationLoop = async () => {
       console.log("Goodbye!");
       break;
     }
-
    
     conversationHistory.push({ role: "user", content: userInput });
 

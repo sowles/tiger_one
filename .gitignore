@@ -1,19 +1,8 @@
-# Node.js dependencies
 /node_modules/
-
-# Environment files
 .env
-
-# Logs
 *.log
-
-# IDE/Editor files (optional, depending on your setup)
 .vscode/
 .idea/
-
-# Operating System files (optional)
 .DS_Store
-
-# npm package lock file (optional if you want to ignore it)
 package-lock.json
 
